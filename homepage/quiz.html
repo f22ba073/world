@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クイズ！</title>
+    <style>
+        .bt {
+            width: 110px;
+            height: 50px;
+            font-size: 25px;
+            color: black;
+            background-color: skyblue;
+        }
+    </style>
+    <script>
+        function pushS() {
+            location.href = 'ok.html'
+        }
+        function pushN() {
+            alert("残念！七海は7月3日です。")
+        }
+        function pushG() {
+            alert("残念！夏油は2月3日です。")
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1>12月7日生まれは誰？</h1>
+    <input class="bt" type="button" value="五条悟" onclick="pushS()">
+    <input class="bt" type="button" value="七海建人" onclick="pushN()">
+    <input class="bt" type="button" value="夏油傑" onclick="pushG()">
+</body>
+
+</html>
